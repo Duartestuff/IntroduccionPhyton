@@ -1,1 +1,4 @@
-#Natalia Duarte
+# Natalia Duarte
+
+###proyecto de phyton para manejar estructuras de control condicionales
+
