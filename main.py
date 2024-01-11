@@ -1,16 +1,18 @@
-#variables primitivas con phyton
-#nombres especificos
-#debo declarar y asignar,  o si no tiene aun el valor igualarla a none
-#asignarle el valor auna variable es "quemar una variable"
-nombreEstudiante="Natalia Duarte"
-edadEstudiante =31
-estaturaEstudiante=1.52
-#los boleano empiezan en mayuscula
-inchadeAlgunEquipo=False
+#PERRO NEGRO
 
-#toda variable inicia en minuscula
-#pedir datos del teclado
-comidafavorita=input("Digita tu comida favorita:")
-#mostar datos en pantalla (salida)
-#f"" fprint investigar - y pone el mensaje y para concatenar abre llaves
-print(f"Hola {nombreEstudiante} tu comida favorita es {comidafavorita}")
+nombreCliente=input("cual es su nombre? ")
+paisCliente=input("Cual es su pais? ")
+cantidadPersonas=int(input("cuantas personas van a reservar? "))
+añoNacimiendoCliente=int(input("en que año nacio? "))
+
+#recalcular la edad del cliente
+añoActual=2024
+edadCliente=añoActual-añoNacimiendoCliente
+
+#clasificar, preguntar, decidir
+
+if edadCliente >= 18 :
+     #tab es lo que viene a replazar las llaves
+    print("Usted es mayor de edad")
+else:
+    print("usted es mayor de menor de edad")
